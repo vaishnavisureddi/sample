@@ -1,0 +1,61 @@
+.header {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+section {
+    width: 675px;
+    margin: 0 auto;
+    padding: 20px 20px;
+    background: white;
+    border: 2px solid #ff3185;
+}
+
+section.checkedOut {
+    width:80%;
+    margin: 0 auto;
+    padding: 20px 20px;
+    background: white;
+    border: 2px solid #ff3185;
+}
+
+label {
+    width: 8em;
+    padding-right: 1em;
+    float: left;
+    color: #182a6b;
+}
+
+a {
+    color: #5c1f86;
+    font-weight: bold;
+}
+
+h1 {
+    color: #5c1f86;
+}
+
+input[type="text"] {
+    width: 15em;
+}
+
+input[type="text"].title {
+    width: 25em;
+}
+
+table {
+    border-spacing: 1em 1em;
+}
+
+td.overdue {
+    text-align: center;
+}
+
+th {
+    text-align: left;
+}
